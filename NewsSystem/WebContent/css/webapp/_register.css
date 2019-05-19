@@ -1,0 +1,21 @@
+#app .layui-card{
+    max-width: 600px;
+}
+.pull-photo{
+    margin-right: 41px;
+}
+.sel{
+    width: 47%;
+    margin-bottom: 12px;
+}
+.sel .layui-input-inline{
+    width: 100%;
+    margin-left: 9px;
+}
+
+.myFooter{
+    display: flex;
+}
+.myFooter span{
+    width: 47%;
+}

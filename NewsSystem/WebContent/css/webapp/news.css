@@ -1,0 +1,48 @@
+.containet{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+/* 左边 */
+.cont_left{
+  width: 55%;
+}
+
+.cont_left_item{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+.cont_left_item .ms_info{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 30px;
+  width: 80%;
+}
+.bui_footer{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  
+}
+.bui_footer div{
+  font-size: 14px;
+  margin-left: 8px;
+}
+.bui_header h3{
+  width: 100%;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 右边 */
+.cont_right{
+  width: 30%;
+  background-color:pink;
+}

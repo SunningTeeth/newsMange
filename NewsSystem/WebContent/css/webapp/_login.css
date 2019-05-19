@@ -1,0 +1,65 @@
+body{
+    background: url(../../layui/images/bg_login2.svg) no-repeat center 110px;
+    background-size: cover;
+    background-color: #f0f2f5;
+}
+.box-header{
+    font-family: Myriad Pro, Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: rgba(0, 0, 0, .85);
+}
+.box-header img{
+	height: 35px;
+}
+.box-body{
+   padding: 10px 10px 40px 10px;
+}
+.box-body>.layui-card{
+	max-width: 360px;
+	margin: 0px auto;
+}
+.layui-card{
+	font-size: 12px;
+}
+.layui-card .layui-card-header{
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.layui-form .layui-form-item .layui-form-label{
+	width: 78px;
+}
+.layui-form .layui-form-item .layui-input-block{
+    margin-left: 78px;
+}
+.layui-form .login-other .layui-icon{
+    position: relative;
+    top: 2px;
+    font-size: 26px;
+}
+.layui-form .login-other > *{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.layui-form .layui-form-item[pane]{
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+}
+.layui-form .login-other .layui-icon-login-qq{
+	color: #3492ED;
+}
+.layui-form .login-other .layui-icon-login-wechat{
+	color: #4DAF29;
+}
+.layui-form .login-other .layui-icon-login-weibo{
+	color: #CF1900;
+}
+.pull-photo{
+	margin-left: 45px;
+	
+}

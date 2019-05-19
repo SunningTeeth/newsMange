@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../css/layui.css" />
+	<link rel="stylesheet" href="../css/admin.css" />
+	<link rel="stylesheet" href="../css/webapp/_login.css" />
+	<title>web login.</title>
+</head>
+
+<body class="layui-anim layui-anim-scale">
+
+	<div class="box-body">
+		<div class="layui-card">
+			<div class="layui-card-header">
+				<i class="layui-icon layui-icon-engine"></i>&nbsp;&nbsp;用户登录
+			</div>
+			<form class="layui-card-body layui-form layui-form-pane layui-anim layui-anim-up">
+
+				<div class="layui-form-item">
+					<label class="layui-form-label">账号</label>
+					<div class="layui-input-block">
+						<input name="userName" type="text" class="layui-input" autocomplete="off" />
+					</div>
+				</div>
+
+				<div class="layui-form-item">
+					<label class="layui-form-label">密码</label>
+					<div class="layui-input-block">
+						<input name="userPwd" type="password" class="layui-input" />
+					</div>
+				</div>
+
+				<div class="layui-form-item" pane>
+					<label class="layui-form-label">记住我</label>
+					<div class="layui-input-block">
+						<input type="radio" name="remember" value="on" title="是">
+						<input type="radio" name="remember" value="off" title="否" checked>
+					</div>
+				</div>
+
+				<div class="layui-form-item">
+					<a href="webApp/register" class="layui-link register">账号注册</a>
+					<a href="webApp/forgotPwd" class="layui-link pull-right">忘记密码</a>
+				</div>
+
+				<div class="layui-form-item">
+					<button type="button" class="layui-btn layui-btn-fluid layui-btn-normal loginBtn">登录</button>
+				</div>
+
+
+			</form>
+
+		</div>
+	</div>
+	<script src="../js/jquery.js"></script>
+  <script src="../layui.js"></script>
+  <script src="../js/webapp/login.js"></script>
+</body>
+
+</html>
