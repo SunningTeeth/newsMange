@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+	<hibernate-configuration>
+		<session-factory>
+<!-- 			制定数据库的方言 -->
+			<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+<!-- 			指定是否在控制台输出hibernate生成的sql语句 -->
+			<property name="hibernate.show_sql">true</property>
+<!-- 			是否格式化输出sql语句 -->
+			<property name="hibernate.format_sql">false</property>
+<!-- 			update表示检测数据可表与类的映射是否一致不一致的话就更新表结构  没有表的话就创建表 -->
+			<property name="hibernate.hbm2ddl.auto">update</property>
+<!-- 			映射配置文件的位置 -->
+<!-- 			<mapping resource="ln/hibernate/modle/customer.hbm.xml"></mapping> -->
+			<mapping class="news.domainProject.Admin"/>
+			<mapping class="news.domainProject.Attention"/>
+			<mapping class="news.domainProject.Category"/>
+			<mapping class="news.domainProject.Comment"/>
+			<mapping class="news.domainProject.Fans"/>
+			<mapping class="news.domainProject.Love"/>
+			<mapping class="news.domainProject.News"/>
+			<mapping class="news.domainProject.User"/>
+		</session-factory>
+	</hibernate-configuration>

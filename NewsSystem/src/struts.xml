@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<!-- 	解决<s:debug/>无效的情况 -->
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+
+
+
+    <package name="root" namespace="/" extends="json-default">
+<!--     	<interceptors> -->
+<!--     		<interceptor name="checkUser" class="shopping.interceptor.CheckUserLogin"/> -->
+<!--     		<interceptor-stack name="checkUserAndDefault"> -->
+<!--     			<interceptor-ref name="defaultStack"/> -->
+<!--     			<interceptor-ref name="checkUser"/> -->
+<!--     		</interceptor-stack> -->
+<!--     	</interceptors> -->
+   		
+   </package>
+</struts>
